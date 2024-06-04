@@ -1,4 +1,4 @@
-# SingleLine otf-svgMaker, Robofont single-line OpenType SVG export script
+# SingleLine_otf-svgMaker_Robofont, Robofont single-line OpenType SVG export script
 # by Frederik Berlaen for isdaT-type, 2021 
 # institut supérieur des arts et du design de Toulouse / isdaT
 # isdaT-type https://github.com/isdat-type
