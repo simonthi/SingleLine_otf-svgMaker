@@ -11,3 +11,4 @@
 
 Frederik Berlaen <frederik@typemytype.com>
 François Chastanet <francois.chastanet@isdat.fr>
+Simon Thiefes <simon.thiefes@haw-hamburg.de>
