@@ -6,7 +6,7 @@
 
 ## Glyphs
 
-`SingleLine_oft-svgMaker-Glyphs` is a Python script for [Glyphs](https://glyphsapp.com/) by [Simon Thiefes](https://simonthiefes.de) that implements the same functionality as the Robofont script but for Glyphs. It is tested on Glyphs 3 and duplictes the drawing layer with open contours to an svg color layer. After runninf the script you can proceed to exporting the font through the Glyphs export window.
+`SingleLine_oft-svgMaker-Glyphs` is a Python script for [Glyphs](https://glyphsapp.com/) by [Simon Thiefes](https://simonthiefes.de) that implements the same functionality as the Robofont script but for Glyphs. It is tested on Glyphs 3 and duplictes the drawing layer with open contours to an svg color layer. After running the script you can proceed to exporting the font through the Glyphs export window.
 
 `SingleLine otf-svgMaker` script opens new perspectives for any typedesigner with monoline projects and fab labs users by largely simplifying typographical practices oriented towards CNC (Computer Numerical Control) engraving or printing.
 
