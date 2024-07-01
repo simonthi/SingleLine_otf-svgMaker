@@ -18,7 +18,6 @@ def appendInstance():
 	if ("SVG" in instanceNames):
 		print("SVG Instance already exists. Only syncing layers.")
 		appendSVGLayer()
-
 	#else: append SVG instance to font
 	else:
 		print("SVG Instance created.")
@@ -37,6 +36,11 @@ def appendSVGLayer():
 	for glyph in Glyphs.font.glyphs:
 		hasColorLayer = [ly.attributes["color"] == True for ly in glyph.layers]
 		if(True in hasColorLayer):
+			layers = glyph.layers
+			for layer in layers:
+				for path in layer.paths:
+					path.attributes['strokeWidth'] = strokeWeight
+					path.attributes['strokeHeight'] = strokeWeight
 			continue
 		else:
 			#make changes non destructive
@@ -70,6 +74,6 @@ def appendSVGLayer():
 			#end undo cycles
 			glyph.endUndo()
 			Glyphs.redraw()
-			
-			
+
+
 appendInstance()
